@@ -1,0 +1,39 @@
+body {
+	background-color: #ccc; 
+	font-family: verdana; 
+	font-size: 14px;
+	line-height: 20px; 
+	font-weight: 300; 
+	text-align: left;
+}
+
+h2 {
+	text-transform: capitalize; 
+	font-weight: 600;
+}
+
+p {
+	font-style:italic; 
+	word-spacing: 4px; 
+	letter-spacing: 2px; 
+	text-decoration: underline; 
+	text-indent: 10px; 
+	text-shadow: 0px 1px 0px #fff;
+}
+
+p:nth-child(4) {
+	font-weight:bold; 
+	word-spacing: 2px; 
+	letter-spacing: 1px; 
+	text-decoration: overline; 
+	text-indent: 15px; 
+	text-shadow: 1px 2px 1px #000;
+}
+
+p:last-child {
+	word-spacing: 3px; 
+	letter-spacing: 2px; 
+	text-decoration: line-through; 
+	text-indent: 20px; 
+	text-shadow: 3px 3px 3px #000;
+}

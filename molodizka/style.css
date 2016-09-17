@@ -1,0 +1,22 @@
+ body {
+ 	background-color: #CCCCCC;
+
+ }
+ p {
+ 	 line-height: 3;
+ 	text-align: left;
+ 	font-size: 36px;
+ 	font-style: italic;
+ }
+ 
+}
+a {
+font-size: 18px;
+color:#333333;
+text-align: right;
+}
+ img {
+ 	 float:left; 
+    margin: 0px  55px 17px;
+    line-height: 3;
+ }

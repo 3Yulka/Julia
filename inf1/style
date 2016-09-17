@@ -1,0 +1,33 @@
+body {
+	background-color:#FFFFCC;
+	}
+p {
+	font-size:14px;
+}
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+}
+div { 
+	font-size:24px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}	
+ .cyrilic { 
+    list-style-type: none; /* Прячем исходную нумерацию */
+   }
+   .cyrilic li::before {
+    margin-right: 5px; /* Расстояние от буквы до текста */
+    width: 1em; /* Ширина */
+    text-align: right; /* Выравнивание по правому краю */
+    display: inline-block; /* Строчно-блочный элемент */
+   }
+   .cyrilic li:nth-child(1)::before { content: 'а)'; }
+   .cyrilic li:nth-child(2)::before { content: 'б)'; }
+   .cyrilic li:nth-child(3)::before { content: 'в)'; }
+   .cyrilic li:nth-child(4)::before { content: 'г)'; }
+   .cyrilic li:nth-child(5)::before { content: 'д)'; }
+   .cyrilic li:nth-child(6)::before { content: 'е)'; }
+   .cyrilic li:nth-child(7)::before { content: 'ё)'; }
+   .cyrilic li:nth-child(8)::before { content: 'ж)'; }
+   .cyrilic li:nth-child(9)::before { content: 'з)'; }
+   .cyrilic li:nth-child(10)::before { content: 'и)'; }
